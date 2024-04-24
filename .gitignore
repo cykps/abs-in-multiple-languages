@@ -1,0 +1,14 @@
+# Ignore All
+*
+
+# Allow Dir
+!/*
+
+# Allow List
+!.gitignore
+!.git/*
+
+!*.go
+!*.c
+!*.cpp
+!*.ru
