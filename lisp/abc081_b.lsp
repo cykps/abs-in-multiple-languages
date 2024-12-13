@@ -1,0 +1,10 @@
+(prin1 (let ((sum 0) (res 0))
+  (dotimes (n (read))
+    (setq sum (logior sum (read)))
+  )
+  (loop
+    (if (/= (mod sum 2) 0) (return res))
+    (setq res (+ res 1))
+    (setq sum (floor sum 2))
+  )
+))
